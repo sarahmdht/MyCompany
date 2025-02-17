@@ -1,0 +1,17 @@
+.hero-section {
+    background-color: $primary;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .btn-custom {
+      background-color: darken($primary, 10%);
+      border-radius: 50px;
+      padding: 10px 20px;
+    }
+  }
+  
