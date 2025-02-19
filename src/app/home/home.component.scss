@@ -1,0 +1,20 @@
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-in {
+    animation: slideInLeft 1s ease-out;
+    opacity: 1 !important;
+  }
+  
+  .text-start {
+    opacity: 0; // Initially hidden until scroll triggers animation
+  }
+  
